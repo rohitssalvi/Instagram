@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="10dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_close"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Instagram"
+            android:layout_toRightOf="@id/iv_back_arrow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/ic_tick"
+            android:layout_alignParentRight="true"
+             android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            />
+
+      </RelativeLayout>
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+</com.google.android.material.appbar.AppBarLayout>
