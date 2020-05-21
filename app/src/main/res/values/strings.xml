@@ -1,3 +1,32 @@
 <resources>
     <string name="app_name">Instagram</string>
+    <string name="network_connection_error">Internet connection lost, please retry again</string>
+    <string name="network_default_error">Something wrong happened, please retry again</string>
+    <string name="network_internal_error">Our systems got an error, please retry again</string>
+    <string name="network_server_not_available">Our services are under maintenance, please retry after some time
+    </string>
+    <string name="server_connection_error">Not able to connect, please retry again</string>
+    <string name="network_login_again">Please log in again</string>
+
+
+    <string name="email_hint">Email ID</string>
+    <string name="password_hint">Password </string>
+    <string name="valid_email_id">Enter a Valid Email Id</string>
+    <string name="email_id_empty">Email Id can\'t be empty</string>
+    <string name="valid_password">Password can\' t more than 6 </string>
+    <string name="password_field_empty">Password field can\' t be empty</string>
+    <string name="sign_up_txt">Sign Up With Eamil </string>
+    <string name="name_field_empty">Name Field Can\'t be Empty </string>
+    <string name="name_field_valid">Name Field Contain only Alphabate Letter </string>
+
+
+    <string name="home">Home</string>
+    <string name="photo">Add Photo</string>
+    <string name="profile">Profile</string>
+    <string name="post_like">%1d Like</string>
+    <string name="txt_camera">Camera</string>
+    <string name="txt_gallery">Gallery</string>
+
+
+
 </resources>
